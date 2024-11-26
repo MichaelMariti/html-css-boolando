@@ -53,6 +53,7 @@ main {
 .product {
     width: 32%;
     position: relative;
+    margin: 50px 0;
 
     /* DEBUG */
     /* height: 200px;
@@ -74,6 +75,7 @@ main {
 .current-price {
     color: red;
 }
+
 .previous-price {
     color: gray;
     text-decoration: line-through;
@@ -106,4 +108,16 @@ main {
     position: absolute;
     bottom: 92%;
     right: 0;
+}
+
+.img-hover {
+    display: none;
+}
+
+.product:hover .img-hover {
+    display: block;
+}
+
+.product:hover .img-front {
+    display: none;
 }
